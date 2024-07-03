@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SecialOffer = () => {
+const SpecialOffer = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const SecialOffer = () => {
   )
 }
 
-export default SecialOffer
+export default SpecialOffer

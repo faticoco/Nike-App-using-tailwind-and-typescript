@@ -1,8 +1,16 @@
 import React from "react";
+import {  Footer,
+  Hero,
+  PopularProdcucts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality} from "./Sections";
+  import Nav from "./Components/Nav";
 
 const App = () => (
   <main className="relative">
-    Nav
+   <Nav/>
     <section className="xl:paddinf-l wide:padding-r padding-b">
       Hero section
     </section>
