@@ -1,3 +1,4 @@
+
 import React from "react";
 import {  Footer,
   Hero,
@@ -10,13 +11,15 @@ import {  Footer,
 
 const App = () => (
   <main className="relative">
-   <Nav/>
+    <Nav/>
     <section className="xl:paddinf-l wide:padding-r padding-b">
-      Hero section
+      <Hero/>
     </section>
-    <section className="padding">Popular products</section>
-    <section className="padding">Super Quality</section>
-    <section className="padding-x py-10">services</section>
+    <section className="padding">
+      <PopularProdcucts/>
+    </section>
+    <section className="padding"><SuperQuality/></section>
+    <section className="padding-x py-10"><Services/></section>
     <section className="padding">Special offers</section>
     <section className="padding bg-pale-blue">Customer Reviews</section>
     <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
@@ -25,3 +28,6 @@ const App = () => (
 );
 
 export default App;
+
+
+
